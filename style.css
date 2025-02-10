@@ -1,3 +1,16 @@
+.navbar{
+    background-color:#333b50;
+}
+.nav-item{
+    padding: 4px;
+}
 .nav-link{
-    color:red;
+    color:greenyellow;
+}
+.nav-link:hover{
+    //background-color: white;
+    border-radius: 15px;
+    border:1px solid white;
+    color:white;
+    box-shadow:0px 0px 5px white;
 }
