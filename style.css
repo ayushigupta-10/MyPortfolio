@@ -16,14 +16,15 @@
 #header{
     min-height:100%;
     background-image: url(image/one.jpg);
-    background-size:100%;
+    background-size:cover;
     background-attachment: fixed;
     position:relative;
+    background-repeat: no-repeat;
 }
 .bg{
     background-color:#4d54668c;
 }
-.split-text-container {
+.split-text-container{
     font-size:5rem;
     font-family:Lora, serif;
     font-optical-sizing: auto;
@@ -34,7 +35,26 @@
     color: #333b50;
     overflow: hidden;
 }
-
+.split-text-container ul{
+    list-style-type: none;font-size: 25px;
+}
+.split-text-container ul li{
+    display: inline-block;
+    background-color:greenyellow;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.split-text-container ul li:hover{
+    transform: scale(1.2);
+    transition: 1s ease;
+    background-color: #323742;
+}
+.split-text-container ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+}
 .text-part {
     display: block;
 }
@@ -188,6 +208,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
 }
 #education .col-sm-12{
     background-color: #22252bcb;
@@ -282,8 +303,55 @@
 #projects .card:hover .slide2{
     transform: translateY(0px);
 }
-
-
+#contact{
+    height:120%;
+    background-image: url(image/five.jpeg);
+    background-size:cover ;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+#contact .bg{
+    background-color: #323742a9;
+}
+.form{
+    background-color:rgba(0, 0, 0, 0.568);
+    text-align: justify;
+    box-shadow: 0px 5px 15px whitesmoke;
+}
+.form h1{
+    color: greenyellow;
+}
+.form .btn{
+    background-color: greenyellow;
+}
+.form .btn:hover{
+    background-color: transparent;
+    border: 2px solid greenyellow;
+    color: greenyellow;
+}
+.form ul{
+    list-style-type: none;font-size: 18px;
+}
+.form ul li{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+.form ul li:hover{
+    transform: scale(1.2);
+    transition: 1s ease;
+    background-color:#ffffff56;
+}
+.form ul li a{
+    text-decoration: none;
+    color:greenyellow;
+    font-weight: bolder;
+}
+#footer{
+    background:linear-gradient(90deg ,black,#333b50,#323742,#333b50,black) ;
+    height: 100px;
+}
 
 
 
