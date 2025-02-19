@@ -15,6 +15,7 @@
 </head>
 <body>
     <div class="container-fluid p-0">
+      <!-- Navbar  start -->
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
               <button class="navbar-toggler bg-white shadow-lg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +39,9 @@
               </div>
             </div>
         </nav>
+        <!-- Navbar end -->
         <div class="container-fluid m-0">
+          <!-- Header start -->
             <div class="row" id="header">
                 <div class="col-sm-12">
                   <h1 class="text-start mt-5 py-5 px-4 split-text-container " >I 
@@ -48,7 +51,7 @@
                     <span style="font-size:x-large;font-weight: normal;text-align: center;">Web Developer</span>
                   </h1>
                 </div>
-                <div class="row" id="aboutme">
+                <div class="row" id="aboutme" data-aos="fade-right" data-aos-duration="2000">
                   <div class="col-sm-8 p-5 fs-5" >
     
                       <p><span style="color: greenyellow;font-size: xx-large;font-weight: bold;">A</span> full-stack web developer. Currently, doing bachlor's degree in Computer Science & Engineering. I have excellent knowledge of HTML CSS, JavaScript, Python and Database, I also have good command in frameworks like Bootstrap and Django. I'm always excited for opportunity to learn the new and cutting edge technologies in web development field. I'm a self-improving , confident and a good learner.</p><a href="#contact" style="text-decoration: none;"><button class="btn rounded-pill p-3 fw-bold">Contact Me</button></a>
@@ -56,12 +59,14 @@
                   </div>
                 </div>
             </div>
-            
+          <!-- Header end -->
+
+          <!-- Skills start -->
             <div class="row" id="skills">
-                <div class="col-sm-12 bg" id="sk">
-                  <h1 class="text-white text-center"><span style="color: greenyellow;text-decoration: underline;">01</span> My Skills</h1>
-                  <div class="col-sm-8 mt-5 m-auto text-white" id="sbar" onscroll="animationBar">
-                    <li>HTML <span class="bar"><span class="html"></span>85%</span>
+                <div class="col-sm-12 bg">
+                  <h1 class="text-white text-center heading"><span style="color: greenyellow;text-decoration: underline;">01</span> My Skills</h1>
+                  <div class="col-sm-8 mt-5 m-auto text-white" id="sbar" >
+                    <li>HTML <span class="bar"><span class="html" data-aos^=fade></span>85%</span>
                     </li>
                     <li>CSS <span class="bar"><span class="css"></span>80%</span>
                     </li>
@@ -80,10 +85,66 @@
                   </div>
                 </div>
             </div>
+          <!-- Skills end -->
+
+          <!-- Education start -->
             <div class="row" id="education">
-              <div class="col-sm-6"></div>
-              <div class="col-sm-6"></div>
+              <div class="col-sm-12 line d-flex flex-column">
+                <h1 class="text-white text-center heading"><span style="color: greenyellow;text-decoration: underline;">02</span>Education</h1>
+                <!-- box 1 -->
+                <div class="card my-2 me-4 leftBox mt-5" style="width:25%;" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                  <div class="dot"></div>
+                  <div class="card-body bg-white">
+                    <h6 class="card-title fw-bold">B.Tech in Computer Science & Engineering (74%)</h6>
+                    <p class="card-subtitle text-body-secondary">2022-2025</p>
+                    <p class="card-text">From A.P.J Abdul Kalam Technical University, Lucknow</p>
+                  </div>
+                  <span class="left-arrow"></span>
+                </div>
+                <!-- box 1 -->
+
+                <!-- box 2 -->
+                <div class="card my-2 me-4 rightBox" style="width: 25%;" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                  <div class="dot"></div>
+                  <div class="card-body bg-white">
+                    <h6 class="card-title fw-bold">Diploma in Mechanical Engineering (80%)</h6>
+                    <p class="card-subtitle text-body-secondary">2019-2022</p>
+                    <p class="card-text">From Board of Technical Education Uttar Pradesh, Lucknow</p>
+                  </div>
+                  <span class="right-arrow"></span>
+                </div>
+                <!-- box 2 -->
+
+                <!-- box 3 -->
+                <div class="card my-2 me-4 leftBox" style="width: 25%;" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                  <div class="dot"></div>
+                  <div class="card-body bg-white">
+                    <h6 class="card-title fw-bold">Intermediate  (62%)</h6>
+                    <p class="card-subtitle text-body-secondary">2018-2019</p>
+                    <p class="card-text">from Board of Highschool and Intermediate Education Uttar Pradesh, Prayagraj</p>
+                  </div>
+                  <span class="left-arrow"></span>
+                </div>
+                <!-- box 3 -->
+
+                <!-- box 4 -->
+                <div class="card mt-2 me-4 mb-5 rightBox" style="width: 25%;" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                  <div class="dot"></div>
+                  <div class="card-body bg-white">
+                    <h6 class="card-title fw-bold">Highschool (87%)</h6>
+                    <p class="card-subtitle text-body-secondary">2016-2017</p>
+                    <p class="card-text">from Board of Highschool and Intermediate Education Uttar Pradesh, Prayagraj</p>
+                  </div>
+                  <span class="right-arrow"></span>
+                </div>
+                <!-- box 4 -->
+              </div>
             </div>
+          <!-- Education end -->
         </div> 
     </div>
 </body>
