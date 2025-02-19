@@ -273,7 +273,6 @@
     position: relative;
     width: 15rem;
     margin:15px;
-    transition: 0.5s;
     border: none;
     background-color: transparent;
 }
@@ -329,6 +328,7 @@
     background-color: transparent;
     border: 2px solid greenyellow;
     color: greenyellow;
+    box-shadow: 0px 0px 15px greenyellow;
 }
 .form ul{
     list-style-type: none;font-size: 18px;
