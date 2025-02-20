@@ -228,8 +228,9 @@
 .leftBox{
     left:18%;
     text-align: justify;
-    box-shadow: 2px 5px 10px white;
+    box-shadow: -5px 5px 10px black;
 }
+
 .leftBox .dot{
     position: absolute;
     right:-36%;
@@ -239,7 +240,7 @@
 .rightBox{
     right: -58%;
     text-align: justify;
-    box-shadow: 2px 5px 10px white;
+    box-shadow: 5px 10px 15px black;
 }
 .rightBox .dot{
     position: absolute;
@@ -267,6 +268,7 @@
     align-content: center;
     height:120%;
     display: flex;
+    box-shadow: 0px 10px 15px black;
 }
 #projects .card{
     display: inline-block;
@@ -282,7 +284,7 @@
     display: flex;
     z-index: 2;
     transform: translateY(100px);
-    box-shadow: 5px 5px 5px greenyellow, -5px -5px 5px white;
+    box-shadow: 5px 5px 2px greenyellow, -5px -5px 2px white;
 }
 #projects .card:hover .slide1{
     transform:translateY(0px);
@@ -316,7 +318,6 @@
 .form{
     background-color:rgba(0, 0, 0, 0.568);
     text-align: justify;
-    box-shadow: 0px 5px 15px whitesmoke;
 }
 .form h1{
     color: greenyellow;
@@ -347,6 +348,16 @@
     text-decoration: none;
     color:greenyellow;
     font-weight: bolder;
+}
+#hireMe{
+    background:linear-gradient(90deg ,black,#333b50,#323742,#333b50,black) ;
+    text-align: justify;
+}
+#hireMe .btn:hover{
+    background-color: transparent;
+    border: 2px solid greenyellow;
+    color: greenyellow;
+    box-shadow: 0px 0px 10px greenyellow;
 }
 #footer{
     background:linear-gradient(90deg ,black,#333b50,#323742,#333b50,black) ;
