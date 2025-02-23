@@ -82,6 +82,7 @@
     background-size:cover;
     background-image: url(image/four.jpeg);
     background-attachment: fixed;
+    animation: all 1s ease;
 }
 .heading{  
     margin-top: 50px;
